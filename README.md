@@ -10,8 +10,8 @@ NOTE: Check the file `pyproject.toml` for dependencies.
 
 3. If you are not using terminal, then use any python (version 3.6 or above, which has pandas and seaborn packages installed) to run the file `lxi_gui.py` and the GUI will pop-up.
 
-4. A Windows executable version of the code can be found ![here](https://drive.google.com/drive/folders/1LIOiDWf1iVsBD70_NCvknc1s4m35v0A-?usp=sharing)
+4. A Windows executable version of the code can be found [here](https://drive.google.com/drive/folders/1LIOiDWf1iVsBD70_NCvknc1s4m35v0A-?usp=sharing)
 
 Please let me know if you have any trouble.
 
-![LEXI GUI](https://raw.githubusercontent.com/qudsiramiz/lxi_gui/main/figures/lxi_gui_Screenshot.png?token=GHSAT0AAAAAABTZOXNE7MBFMK2ZC5YK7PSKYUGYMLA)
+![LEXI GUI](https://raw.githubusercontent.com/qudsiramiz/lxi_gui/main/figures/lxi_gui_Screenshot.png?token=GHSAT0AAAAAABOWV7JYFDKPEMKOIOWJJQD4YU7TZ2Q)
