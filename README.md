@@ -14,4 +14,8 @@ NOTE: Check the file `pyproject.toml` for dependencies.
 
 Please let me know if you have any trouble.
 
-![LEXI GUI](https://raw.githubusercontent.com/qudsiramiz/lxi_gui/main/figures/lxi_gui_Screenshot.png?token=GHSAT0AAAAAABOWV7JYFDKPEMKOIOWJJQD4YU7TZ2Q)
+![science](https://raw.githubusercontent.com/qudsiramiz/LUIGI/main/figures/science_image.png)
+Sample image for science stuff
+
+![housekeeping](https://raw.githubusercontent.com/qudsiramiz/LUIGI/main/figures/housekeeping_image.png)
+Sample image for housekeeping stuff
