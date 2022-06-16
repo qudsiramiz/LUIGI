@@ -1,21 +1,25 @@
 # LUIGI
-Lexi User Interface for Graphical Interaction
 
-## How to run the programme
+[![hackmd-github-sync-badge](https://hackmd.io/LXNytytAQiKvtGFUXNRiUw/badge)](https://hackmd.io/LXNytytAQiKvtGFUXNRiUw)
 
-NOTE: Check the file `pyproject.toml` for dependencies.
+### LEXI User Interface for Graphical Interaction
+---
 
-1. Download the code to a folder
-2. Open a terminal in the folder and type `$./lxi_gui.sh`. If for some reason this doesn't work, check if the file `lxi_gui.sh` is an executable file or not (if it is not, then run the command `$chmod a+x lxi_gui.sh` to make it executable).
+## How to run the programme/use the code
 
-3. If you are not using terminal, then use any python (version 3.6 or above, which has pandas and seaborn packages installed) to run the file `lxi_gui.py` and the GUI will pop-up.
+### For Windows:
+1. If you are on Windows, you can download the executable file for LUIGI by clicking on this link: [LUIGI Windows](https://drive.google.com/drive/folders/1LIOiDWf1iVsBD70_NCvknc1s4m35v0A-?usp=sharing)
 
-4. A Windows executable version of the code can be found [here](https://drive.google.com/drive/folders/1LIOiDWf1iVsBD70_NCvknc1s4m35v0A-?usp=sharing)
+### For Windows/Unix/Mac Os Systems:
+1. Download the code.
+2. Open a terminal in the folder and type `$./lxi_gui.sh`. If for some reason this doesn't work, check if the file `lxi_gui.sh` is an executable file or not.
+    * if it is not, then run the command`$chmod a+x lxi_gui.sh` to make it executable    
+4. If you are not using terminal, then use any python (version 3.6 or above, which has pandas and seaborn packages installed) to run the file `lxi_gui.py` and the GUI will pop-up.
 
-Please let me know if you have any trouble.
+Please let me know if you have any trouble in using the program.
 
-![science](https://raw.githubusercontent.com/qudsiramiz/LUIGI/main/figures/science_image.png)
-Sample image for science stuff
+![Science Front](https://raw.githubusercontent.com/qudsiramiz/lxi_gui/exp/figures/luigi_hist_sci.png?token=GHSAT0AAAAAABOWV7JZSEL4NPS7MRBQXGEWYVLNOLQ)
+### <center>The Science histograms</center>
 
-![housekeeping](https://raw.githubusercontent.com/qudsiramiz/LUIGI/main/figures/housekeeping_image.png)
-Sample image for housekeeping stuff
+![Housekeeping Front](https://raw.githubusercontent.com/qudsiramiz/lxi_gui/exp/figures/luigi_ts_hk.png?token=GHSAT0AAAAAABOWV7JYNZBWK5CWHLZZ2ZGAYVLNOLA)
+### <center>The Housekeeping Time series</center>
