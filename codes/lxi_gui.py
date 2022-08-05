@@ -9,7 +9,7 @@ import lxi_gui_plot_routines as lgpr
 import lxi_load_plot_routines as llpr
 import lxi_misc_codes as lmsc
 import lxi_file_read_funcs as lxrf
-import lxi_csv_to_cdf as lctc
+# import lxi_csv_to_cdf as lctc
 
 importlib.reload(lgpr)
 importlib.reload(lxrf)
@@ -17,30 +17,30 @@ importlib.reload(global_variables)
 importlib.reload(llpr)
 importlib.reload(lgeb)
 importlib.reload(lmsc)
-importlib.reload(lctc)
+# importlib.reload(lctc)
 
 # Initialize the global variables. This is necessary because the global variables is where all the
 # data and name of the files are stored.
 global_variables.init()
 
 
-def save_cdf():
-    """
-    The function, upon clicking the "Save CDF" button, saves the data in the csv file to a cdf file.
-    """
-    try:
-        inputs = {
-            "df": global_variables.all_file_details["df_all_sci"],
-            "csv_file": global_variables.all_file_details["file_name_sci"],
-        }
-
-        lctc.lxi_csv_to_cdf(**inputs)
-    except Exception as e:
-        print(f"\n \x1b[1;31;255m Error: \x1b[0m Could not save the cdf file. Following exception"
-              f" was raised: \n \x1b[1;31;255m {e} \x1b[0m is not defined. \n Check if a valid "
-              f"Science csv file is loaded. \n")
-        pass
-
+#def save_cdf():
+#    """
+#    The function, upon clicking the "Save CDF" button, saves the data in the csv file to a cdf file.
+#    """
+#    try:
+#        inputs = {
+#            "df": global_variables.all_file_details["df_all_sci"],
+#            "csv_file": global_variables.all_file_details["file_name_sci"],
+#        }
+#
+#        lctc.lxi_csv_to_cdf(**inputs)
+#    except Exception as e:
+#        print(f"\n \x1b[1;31;255m Error: \x1b[0m Could not save the cdf file. Following exception"
+#              f" was raised: \n \x1b[1;31;255m {e} \x1b[0m is not defined. \n Check if a valid "
+#              f"Science csv file is loaded. \n")
+#        pass
+#
 
 def hist_plot_inputs(dpi=100):
     """
@@ -473,12 +473,12 @@ curve_fit_checkbox.grid(row=14, column=4, columnspan=1, sticky="n")
 curve_fit_status_var.trace("w", lambda *_: hist_plot_inputs(dpi=dpi))
 
 # Add a button to save the data to a cdf file
-cdf_save_button = tk.Button(
-    sci_tab, text="Save CDF", command=lambda: save_cdf(), font=font_style_box,
-    justify="center", bg="snow", fg="green", pady=5, padx=5, borderwidth=2,
-    relief="raised", highlightthickness=2, highlightbackground="green", highlightcolor="green"
-)
-cdf_save_button.grid(row=12, column=7, columnspan=2, sticky="n")
+#cdf_save_button = tk.Button(
+#    sci_tab, text="Save CDF", command=lambda: save_cdf(), font=font_style_box,
+#    justify="center", bg="snow", fg="green", pady=5, padx=5, borderwidth=2,
+#    relief="raised", highlightthickness=2, highlightbackground="green", highlightcolor="green"
+#)
+#cdf_save_button.grid(row=12, column=7, columnspan=2, sticky="n")
 
 # Label for plot times
 start_time_label = tk.Label(sci_tab, text="Plot Times", font=font_style, bg="white", fg="black")
