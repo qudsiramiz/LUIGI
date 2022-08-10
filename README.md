@@ -4,7 +4,7 @@
 
 ### LEXI User Interface for Graphical Interaction
 ---
-![Source Code](https://github.com/qudsiramiz/LUIGI)
+[Source Code](https://github.com/qudsiramiz/LUIGI)
 
 ## How to run the programme/use the code
 
